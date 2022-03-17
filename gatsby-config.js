@@ -28,10 +28,10 @@ module.exports = {
         short_name: `Farouq`,
         description: `Farouq Bushnaq | Software Engineer | About Me`,
         start_url: `/`,
-        background_color: `#141821`,
+        background_color: `#47682C`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
-        theme_color: `#f6ad55`,
+        //theme_color: `#f6ad55`,
         display: `standalone`,
         icons: [{
             src: `/android-chrome-192x192.png`,

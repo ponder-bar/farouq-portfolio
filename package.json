@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "cara",
+  "name": "farouq",
   "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
   "version": "0.2.11",
   "author": "LekoArts <hello@lekoarts.de>",
@@ -16,11 +16,11 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-cara": "^3.0.0",
-    "gatsby": "^4.4.0",
-    "gatsby-plugin-gatsby-cloud": "^4.0.0",
-    "gatsby-plugin-manifest": "^4.0.0",
-    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.22",
+    "@lekoarts/gatsby-theme-cara": "^3.0.5",
+    "gatsby": "^4.10.0",
+    "gatsby-plugin-gatsby-cloud": "^4.10.0",
+    "gatsby-plugin-manifest": "^4.10.0",
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.26",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
