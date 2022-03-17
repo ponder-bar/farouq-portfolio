@@ -26,12 +26,12 @@ module.exports = {
       options: {
         name: `Farouq Bushnaq`,
         short_name: `Farouq`,
-        description: `Farouq Bushnaq | Software Engineer | About Me`,
+        description: `Farouq Bushnaq | Software Engineer | Buffalo, NY`,
         start_url: `/`,
-        background_color: `#47682C`,
+        background_color: `#829e85`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
-        //theme_color: `#f6ad55`,
+        theme_color: `#f6ad55`,
         display: `standalone`,
         icons: [{
             src: `/android-chrome-192x192.png`,
