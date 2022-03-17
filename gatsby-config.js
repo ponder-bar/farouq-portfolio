@@ -8,10 +8,10 @@ module.exports = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
     siteTitle: `farouq`,
-    siteTitleAlt: `farouq bushnaq | Software Developer | Full-Stack | USA`,
+    siteTitleAlt: `farouq bushnaq | Software Developer | Full-Stack | Buffalo, NY USA`,
     siteHeadline: `F.B.`,
     siteUrl: `https://farouq.io`,
-    siteDescription: `Farouq Bushnaq | Software Developer | Full-Stack | USA`,
+    siteDescription: `Farouq Bushnaq | Software Developer | Full-Stack | Buffalo, NY USA`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `@ponder_bar`,
