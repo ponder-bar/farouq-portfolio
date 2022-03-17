@@ -1,9 +1,9 @@
 {
   "private": true,
   "name": "farouq",
-  "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
+  "description": "farouq version of gatsby-starter-portfolio-cara",
   "version": "0.2.11",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Farouq Bushnaq <farouqb@hotmail.com>",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
