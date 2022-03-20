@@ -8,7 +8,7 @@ module.exports = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
     siteTitle: `farouq`,
-    siteTitleAlt: `farouq bushnaq | Software Developer | Full-Stack | Buffalo, NY USA`,
+    siteTitleAlt: `farouq bushnaq | F.B.`,
     siteHeadline: `F.B.`,
     siteUrl: `https://farouq.io`,
     siteDescription: `Farouq Bushnaq | Software Developer | Full-Stack | Buffalo, NY USA`,
@@ -31,7 +31,7 @@ module.exports = {
         background_color: `#847996`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
-        //theme_color: `#f6ad55`,
+        theme_color: `#f6ad55`,
         display: `standalone`,
         icons: [{
             src: `/android-chrome-192x192.png`,
