@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { Heading, Text, Paragraph, Image, Flex} from 'theme-ui'
+import { Heading, Text, Paragraph, Image, Flex } from 'theme-ui'
 
 
 type ProjectCardProps = {
@@ -36,19 +36,17 @@ const ProjectCard = ({ link, title, children, bg, years, position, paragraphs, c
       },
     }}
   >
-  <Image mb={3} src={link} width="135px" height="65px"/>
-  <Heading mb={3} as="h5" variant="styles.h5">
-    {title}
-  </Heading>
-  <Heading mb={1} as="h6" variant="styles.h6" sx={{color: `InactiveCaption` }}>
-    {position}
-  </Heading> 
-  <Text mb={2} as="small" sx={{ fontStyle: `italic`, color: `HighlightText` , textAlign: `right`}}>
-{years}
-</Text>
-  <Paragraph mb={3} as="small" sx={{ fontStyle: 'italic' }}>{children}</Paragraph><br/>
-
-
+    <Image mb={3} src={link} width="135px" height="65px" />
+    <Heading mb={3} as="h5" variant="styles.h5">
+      {title}
+    </Heading>
+    <Heading mb={1} as="h6" variant="styles.h6" sx={{ color: `InactiveCaption` }}>
+      {position}
+    </Heading>
+    <Text mb={2} as="small" sx={{ fontStyle: `italic`, color: `HighlightText`, textAlign: `right` }}>
+      {years}
+    </Text>
+    <Paragraph mb={3} as="small" sx={{ fontStyle: 'italic' }}>{children}</Paragraph><br />
   </a>
 )
 

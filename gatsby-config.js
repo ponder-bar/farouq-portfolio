@@ -1,4 +1,5 @@
-require(`dotenv`).config()
+require(`dotenv`).config();
+require('newrelic');
 
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
@@ -46,6 +47,12 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
     `gatsby-plugin-gatsby-cloud`,
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
@@ -55,5 +62,6 @@ module.exports = {
         openAnalyzer: false,
       },
     },
+    
   ].filter(Boolean),
 }
