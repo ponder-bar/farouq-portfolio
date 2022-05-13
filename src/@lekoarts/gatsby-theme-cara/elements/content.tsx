@@ -13,7 +13,7 @@ type ContentProps = {
 const Content = ({ speed, offset, children, className = ``, factor = 1 }: ContentProps) => (
   <ParallaxLayer
     sx={{
-      padding: [1, 2, 2, 3],
+      padding: [3, 4, 4, 5],
       display: `flex`,
       flexDirection: `column`,
       alignItems: `center`,

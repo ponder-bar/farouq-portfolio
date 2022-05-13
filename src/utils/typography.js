@@ -8,7 +8,7 @@ const typography = new Typography({
     '400i',
     '700',
     '700i',
-  ],}, {name:"Noto Serif" , styles: [
+  ],}, {name:"Alegreya Sans" , styles: [
     '400',
     '400i',
     '700',
@@ -18,7 +18,7 @@ const typography = new Typography({
     "Space Grotesk",
     "sans-serif",
   ],
-  bodyFontFamily: ["Space Grotesk", "Noto Serif", "serif"],
+  bodyFontFamily: ["Alegreya Sans", "serif"],
 })
 
 export default typography

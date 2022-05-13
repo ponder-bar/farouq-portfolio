@@ -9,11 +9,11 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['portfolio'],
+  app_name: ['farouq-portfolio'],
   /**
    * Your New Relic license key.
    */
-  license_key: 'fbea313e84424091123487d692e1c1f49fc2NRAL',
+  license_key: '278d58f2733cf27caf6059de9919ab84dd09NRAL',
   logging: {
     /**
      * Level at which to log. 'trace' is most useful to New Relic when diagnosing
