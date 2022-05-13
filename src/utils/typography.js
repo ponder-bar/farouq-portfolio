@@ -6,11 +6,15 @@ const typography = new Typography({
   googleFonts: [{name:"Space Grotesk" , styles: [
     '400',
     '400i',
+    '500',
+    '600',
     '700',
     '700i',
-  ],}, {name:"Alegreya Sans" , styles: [
+  ],}, {name:"Rubik" , styles: [
     '400',
     '400i',
+    '500',
+    '600',
     '700',
     '700i',
   ],}],
@@ -18,7 +22,7 @@ const typography = new Typography({
     "Space Grotesk",
     "sans-serif",
   ],
-  bodyFontFamily: ["Alegreya Sans", "serif"],
+  bodyFontFamily: ["Rubik", "sans-serif"],
 })
 
 export default typography
