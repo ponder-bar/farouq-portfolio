@@ -1,7 +1,7 @@
 require(`dotenv`).config();
-require('newrelic');
+require(`newrelic`);
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
@@ -17,7 +17,8 @@ module.exports = {
     siteImage: `/banner.jpg`,
     author: `@ponder_bar`,
   },
-  plugins: [{
+  plugins: [
+    {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
       options: {},
@@ -34,7 +35,8 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         theme_color: `#f6ad55`,
         display: `standalone`,
-        icons: [{
+        icons: [
+          {
             src: `/android-chrome-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
@@ -62,6 +64,5 @@ module.exports = {
         openAnalyzer: false,
       },
     },
-    
   ].filter(Boolean),
-}
+};

@@ -1,5 +1,5 @@
-import { merge } from "theme-ui"
-import { tailwind } from "@theme-ui/presets"
+import { merge } from "theme-ui";
+import { tailwind } from "@theme-ui/presets";
 
 const theme = merge(tailwind, {
   initialColorModeName: `dark`,
@@ -85,11 +85,12 @@ const theme = merge(tailwind, {
       },
     },
     h1: {
-      fontSize: [6, 7, 8],
+      fontSize: [5, 6, 7],
       mt: 2,
       mb: 3,
       textShadow: `rgba(255, 255, 255, 0.15) 0px 5px 35px`,
       letterSpacing: `wide`,
+      wordBreak: `keep-all`,
       color: `heading`,
     },
     h2: {
@@ -141,6 +142,6 @@ const theme = merge(tailwind, {
       },
     },
   },
-})
+});
 
-export default theme
+export default theme;
