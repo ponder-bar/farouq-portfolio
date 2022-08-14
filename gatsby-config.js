@@ -1,5 +1,5 @@
-require(`dotenv`).config();
 require(`newrelic`);
+require(`dotenv`).config();
 
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
