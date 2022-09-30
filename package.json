@@ -20,7 +20,6 @@
     "gatsby": "^4.24.1",
     "gatsby-plugin-gatsby-cloud": "^4.24.0",
     "gatsby-plugin-manifest": "^4.24.0",
-    "gatsby-plugin-newrelic": "^2.2.2",
     "gatsby-plugin-typography": "^4.24.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.27",
     "react": "^18.2.0",

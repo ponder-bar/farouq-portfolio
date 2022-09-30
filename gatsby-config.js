@@ -54,21 +54,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    {
-      resolve: 'gatsby-plugin-newrelic',
-      options: {
-        config: {
-            instrumentationType: 'proAndSPA',
-            accountId: '3492363',
-            trustKey: '3492363',
-            agentID: '1120116307',
-            licenseKey: 'NRJS-7d5a34ebee4256a7798',
-            applicationID: '1120116307',
-            beacon: 'bam.nr-data.net',
-            errorBeacon: 'bam.nr-data.net'
-        }
-      }
-    },
     `gatsby-plugin-gatsby-cloud`,
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
